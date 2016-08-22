@@ -195,7 +195,7 @@ public class BugleNotifications {
                     + " conversationId = " + conversationId
                     + " coverage = " + coverage);
         }
-        Assert.isNotMainThread();
+    Assert.isNotMainThread();
         checkInitialized();
 
         if (!shouldNotify()) {
